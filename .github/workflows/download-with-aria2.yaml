@@ -67,7 +67,7 @@ jobs:
               zip -s 90m "downloads/${BASENAME}.zip" -j "$FILE"
               echo "✅ Parts: $(ls downloads/${BASENAME}* | wc -l)"
             else
-              cp "$FILE" "downloads/The Only EKG Book You'll Ever Need, 9e.pdf"
+              cp "$FILE" "downloads/test.mp3"
             fi
           done
 
