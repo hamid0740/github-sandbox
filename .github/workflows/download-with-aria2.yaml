@@ -67,7 +67,7 @@ jobs:
               zip -s 90m "downloads/${BASENAME}.zip" -j "$FILE"
               echo "✅ Parts: $(ls downloads/${BASENAME}* | wc -l)"
             else
-              cp "$FILE" "downloads/test.mp3"
+              cp "$FILE" "downloads/The History of Graphic Design. Vol. 2, 1960–Today.pdf"
             fi
           done
 
