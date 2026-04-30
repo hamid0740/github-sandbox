@@ -67,7 +67,7 @@ jobs:
               zip -s 90m "downloads/${BASENAME}.zip" -j "$FILE"
               echo "✅ Parts: $(ls downloads/${BASENAME}* | wc -l)"
             else
-              cp "$FILE" "downloads/The Weeknd - Rio (feat. Anitta).mp4"
+              cp "$FILE" "downloads/Drake - ICEMAN LEAK 1.mp4"
             fi
           done
 
